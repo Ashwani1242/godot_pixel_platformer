@@ -10,3 +10,6 @@ func _on_CheckPoint_body_entered(body):
 	animatedSprite.play("Checked")
 	active = false
 	Events.emit_signal("hit_checkpoint", position)
+
+
+// checkpoints
