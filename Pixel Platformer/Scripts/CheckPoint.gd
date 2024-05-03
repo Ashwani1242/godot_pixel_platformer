@@ -12,4 +12,4 @@ func _on_CheckPoint_body_entered(body):
 	Events.emit_signal("hit_checkpoint", position)
 
 
-// checkpoints
+## checkpoints
